@@ -9,6 +9,7 @@ const getPort = (url : string | undefined) => {
 const port = getPort(process.env.APP_API_URL);
 
 app.listen(port, () => {
-    console.log(' ============= // Running // ============= ');
+    console.log(' ============= // 🔥 Running 🔥 // ============= ');
     console.log(`🔥 Server running on port ${port} ! 🔥`);
+    console.log(' ============= //🔥 NODE BACKEND APPLICATION 🔥 // ============= ');
   });

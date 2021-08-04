@@ -9,9 +9,7 @@
     "build": "tsc",
     "build:prod": "rm -rf bin && tsc",
     "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --coverage --watchAll=false --config=./src/config/jest.config.ts",
-    "knex:seed": "npx knex seed:run --knexfile src/config/knexfile.ts",
-    "knex:migrate": "npx knex migrate:latest --knexfile src/config/knexfile.ts"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --coverage --watchAll=false --config=./src/config/jest.config.ts"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
@@ -23,7 +21,7 @@
     "express-promise-router": "^4.1.0",
     "http-status-codes": "^2.1.4",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.21.9",
+    "mongoose": "^5.13.5",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.0",
     "swagger-jsdoc": "^6.0.0-rc.3",
