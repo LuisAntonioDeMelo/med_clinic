@@ -32,4 +32,6 @@ export interface IPerson {
         dataNascimento 
     }: IPersonRequestUpdate): void;
 
+    isValid(): Promise<{ isValidPerson: boolean; error: string }>;
+
 }

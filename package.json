@@ -21,6 +21,7 @@
     "express-promise-router": "^4.1.0",
     "http-status-codes": "^2.1.4",
     "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.9",
     "mongoose": "^5.13.5",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.0",
